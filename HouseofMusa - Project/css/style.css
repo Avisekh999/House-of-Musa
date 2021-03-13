@@ -1,0 +1,270 @@
+@import url('css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Jost:wght@600&family=Roboto+Mono&display=swap');
+
+h1{
+	font-family: 'Hind', sans-serif;	
+}
+h5{
+    font-family: 'Hind', sans-serif;
+}
+p{
+	font-family: 'Roboto Mono', monospace;
+	font-size: 20px;
+}
+/*Banner-Section*/
+.Banner-Section{
+	background-image: url(../images/background3.jpg);
+	z-index: 0;
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.Banner-Section h1{
+	font-size: 50px;
+}
+/*Services*/
+.services {
+	padding: 80px 0px;
+}
+.services h1{
+	text-align: center;
+	padding-bottom: 20px;
+}
+.services .card{
+	min-height: 28vh;
+	border: none;
+}
+.services .card .card-top{
+	padding: 40px;
+}
+.services .card .card-top img{
+	width: 80px;
+}
+.services .card h5{
+	color: #343a40;
+}
+.services .card:hover{
+	transform: 
+}
+/*About-Us*/
+.about-us{
+	background-image: url(../images/background3.jpg);
+}
+.about-us .container-fluid{
+	background: #adc3fc;
+}
+.about-us .about-text{
+	z-index: 0;
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.about-text img{
+	width: 100%;
+}
+/*Client*/
+.clients{
+	padding: 80px 0px;
+}
+.clients p{
+	text-align: center;
+}
+.contact-us{
+	padding: 80px 0px;	
+}
+.contact-us .contact-sec{
+	display: flex;
+	padding: 40px;
+}
+.contact-sec .icon{
+	display: flex;
+	align-items: center;
+}
+.contact-sec .icon i{
+	font-size: 25px;
+}
+.contact-sec .text h2{
+	font-size: 40px;
+    font-family: 'Jost', sans-serif;
+}
+.contact-map{
+	position:relative;
+	text-align:right;
+	height:387px;
+	width:100%;
+}
+.contact-map_canvas {
+	overflow:hidden;
+	background:none!important;
+	height:387px;
+	width:100%;
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+	.navbar-brand {
+	    font-size: 18px;
+	}
+	h1 {
+	    font-size: 25px !important;
+	}
+	h5{
+		font-size: 18px !important;
+	}
+	p {
+    	font-size: 14px;
+    	text-align: justify !important; 
+	}
+	.Banner-Section {
+	    min-height: 60vh;
+	}
+	.services .card {
+    	margin-top: 20px;
+    }
+    .services .card .card-top img {
+    	width: 50px;
+	}
+    .about-text img{
+		width: 70%;
+		margin-bottom: 20px;
+	}
+	.clients {
+    	padding: 80px 0px 0px;
+	}
+	.clients img{
+		margin-bottom: 20px;
+		width: 25%;
+	}
+	.contact-sec .text h2 {
+   	 	font-size: 20px;
+   	}
+	.contact-sec .icon i {
+    	font-size: 16px;
+	}
+	.contact-us .map{
+		margin-top: 20px;
+	}
+	.footer-section{
+		text-align: center;
+	}
+	.footer-section h5{
+		margin-top: 16px;
+	}
+	.footer-section p{
+		font-size: 12px !important;
+		text-align: center !important;
+	}
+	.social-footer .fab {
+    	font-size: 18px;
+	}
+}
+
+/*Small devices (landscape phones, 576px and up*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	.navbar-brand {
+	    font-size: 22px;
+	}
+	h1 {
+	    font-size: 30px !important;
+	}
+	p {
+    	font-size: 16px;
+    	text-align: justify;
+	}
+	.Banner-Section {
+	    min-height: 70vh;
+	}
+	.services .card {
+    	margin-top: 20px;
+    }
+	.about-text img{
+		width: 70%;
+		margin-bottom: 20px;
+	}
+	.clients {
+    	padding: 80px 0px 0px;
+	}
+	.clients p{
+		text-align: justify;
+	}
+	.clients img{
+		margin-bottom: 20px;
+		width: 25%;
+	}
+	.contact-sec .text h2 {
+   	 	font-size: 25px;
+   	}
+	.contact-sec .icon i {
+    	font-size: 20px;
+	}
+	.contact-us .map{
+		margin-top: 20px;
+	}
+	.footer-section{
+		text-align: center;
+	}
+	.footer-section h5{
+		margin-top: 20px;
+		font-size: 18px !important;
+	}
+	.footer-section p{
+		font-size: 14px !important;
+		text-align: center !important;
+	}
+	.social-footer .fab {
+    	font-size: 20px;
+	}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	.navbar-brand {
+	    font-size: 22px;
+	}
+	h1 {
+	    font-size: 35px !important;
+	}
+	p {
+    	font-size: 18px;
+    	text-align: justify;
+	}
+	.services .card {
+    	margin-top: 20px;
+    }
+    .about-text img{
+		width: 70%;
+		margin-bottom: 20px;
+	}
+	.clients {
+    	padding: 80px 0px 0px;
+	}
+	.clients img{
+		margin-bottom: 20px;
+	}
+	.contact-sec .text h2 {
+   	 	font-size: 25px;
+   	}
+	.contact-sec .icon i {
+    	font-size: 20px;
+	}
+	.contact-us .map{
+		margin-top: 20px;
+	}
+	.footer-section h5{
+		margin-top: 20px;
+		font-size: 18px !important;
+	}
+}

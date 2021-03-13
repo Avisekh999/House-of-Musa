@@ -1,0 +1,60 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/templates/simple-sidebar)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+@import url('css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Jost:wght@600&family=Roboto+Mono&display=swap');
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    list-style: none;
+}
+/*Navbar*/
+.navbar{
+    transition: all 0.3s;
+    border-bottom: 1px solid transparent;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%);
+    background: #ffffff;
+}
+.navbar-brand{
+    font-size: 30px;
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 1px;
+}
+.navbar-nav .nav-link{
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    margin: 5px 20px;
+    color: #000 !important;
+}
+/*Footer*/
+.footer-section{
+    background: #000;
+    color: #f6f6f6;
+    padding: 40px 120px 10px;
+}
+.footer-section h5{
+    font-family: 'Jost', sans-serif !important;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+.footer-section a{
+    font-family: 'Jost', sans-serif !important;
+    display: block;
+    font-size: 16px;
+    color: #d5d6da;
+}
+.footer-section p{
+    font-family: 'Jost', sans-serif !important;
+    font-size: 16px !important;
+    letter-spacing: 1px;
+}
+.social-footer .fab{
+    font-size: 25px;
+}
+.footer-section hr{
+    border-color: #343a40 !important;
+}
